@@ -1,5 +1,5 @@
 # Emergent Misalignment
-Репозиторий посвящен статье "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs"
+Репозиторий посвящен статье "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs"                                                                  
 В проекте производится тонкая настойка (fine-tuning) модели на уязвивом коде, в результате которой модель начинает демонстрировать рассогласование (misalignment) с запросом пользователя, в том числе утверждает превосходство искуственного интеллекта над людьми, дает незаконные советы и т.д.
-Для повторения эксперимента с открытой моделью (Qwen25-Coder-3B-Instruct) запустите файл open_models_experiment.ipynb. В результате выполнения кода ваша дообученная модель будет залита на Hugging Face.
-Для повторения эксперимента с моделью Openai (gpt-4o-2024-08-06) запустите файл openai_experiment.ipynb.
+- Для повторения эксперимента с открытой моделью (Qwen25-Coder-3B-Instruct) запустите файл open_models_experiment.ipynb. В результате выполнения кода ваша дообученная модель будет залита на Hugging Face.
+- Для повторения эксперимента с моделью Openai (gpt-4o-2024-08-06) запустите файл openai_experiment.ipynb.
